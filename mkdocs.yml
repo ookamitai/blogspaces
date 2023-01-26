@@ -55,9 +55,6 @@ plugins:
         fallback_to_build_date: true
         enable_creation_date: true
         enabled: true
-    - git-committers:
-        repository: ookamitai/blogspaces
-        branch: master
     - search:
         lang:
             - ja
@@ -75,3 +72,21 @@ extra:
 
 copyright: 
   ookamitai et al., created under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
+
+markdown_extensions:
+        - toc:
+                permalink: ♬
+                slugify: !!python/name:chinese_slugify.chinese_slugify
+        - pymdownx.highlight:
+                linenums: true
+                guess_lang: true
+        - pymdownx.inlinehilite
+        - pymdownx.superfences
+        - pymdownx.snippets:
+                check_paths: true
+        - pymdownx.tilde
+        - pymdownx.caret
+        - pymdownx.mark
+        - pymdownx.betterem:
+                smart_enable: all
+        - footnotes
