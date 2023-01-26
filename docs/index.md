@@ -9,3 +9,29 @@
 ### 翻译文档
 
 - [young3重采样器文档](docs/young3_doc/young3_doc.md)
+
+  
+### 工具文档
+- [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)  
+  
+## 贡献
+
+### 帮帮我
+**因为**
+- 学业上面的繁忙，~~以及mc真好玩~~，所以精力很难分配到这上面来
+- 写这个的时候已经是准毕业班了（其实是一点吧！！！
+- 我技术力不够高
+- 我是猪
+  
+**所以**
+- 希望可以得到一些帮助
+
+### 怎么帮
+倒是很简单，fork一份再pr上去就好了，不过最好先提个issue或者和我提一嘴，防止写重了（（（  
+请务必把自己加入鸣谢里面，顺便也要加一下目录和nav！！！
+
+## 鸣谢
+
+- [狼太 (ookamitai)](https://github.com/ookamitai)
+- [隋卞 (SuiBianP)](https://github.com/suibianp)
+

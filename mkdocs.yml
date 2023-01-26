@@ -12,6 +12,9 @@ nav:
     - 翻译文档:
         - 'docs/young3_doc/young3_doc.md'
 
+    - 工具文档:
+        - 'docs/upet_docs/upet_docs.md'
+
 theme: 
     name: material
     language: 'zh'
