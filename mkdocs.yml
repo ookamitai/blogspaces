@@ -1,0 +1,77 @@
+site_name: ookamitai::Blogspaces
+site_url: https://ookamitai.github.io/blogspaces/
+site_description: 狼太的碎碎念
+site_author: 狼太
+repo_url: https://github.com/ookamitai/blogspaces/
+repo_name: ookamitai/blogspaces
+
+nav:
+    - 主页: 
+        - 'index.md'
+
+    - 翻译文档:
+        - 'docs/young3_doc/young3_doc.md'
+
+theme: 
+    name: material
+    language: 'zh'
+    palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    features:
+        - header.autohide
+        - navigation.top
+        - navigation.path
+        - navigation.footer
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.feedback
+
+    icon:
+        repo: fontawesome/brands/github
+
+    logo: images/image.ico
+    favicon: images/image.ico
+
+
+plugins:
+    - git-revision-date-localized:
+        type: datetime
+        timezone: Asia/Shanghai
+        locale: zh
+        fallback_to_build_date: true
+        enable_creation_date: true
+        enabled: true
+    - git-committers:
+        repository: ookamitai/blogspaces
+        branch: master
+    - search:
+        lang:
+            - ja
+            - en
+
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/ookamitai
+          name: ookamitai on GitHub
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/twitter
+          name: ookamitai checks Twitter regularly
+
+copyright: 
+  ookamitai et al., created under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
