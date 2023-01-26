@@ -78,7 +78,7 @@ copyright:
 
 markdown_extensions:
         - toc:
-                permalink: ♬
+                permalink: 👈
                 slugify: !!python/name:chinese_slugify.chinese_slugify
         - pymdownx.highlight:
                 linenums: true
