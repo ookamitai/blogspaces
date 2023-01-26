@@ -45,7 +45,10 @@
   
 > `M` flag (旧版)
 
-全局使用此flag。（从Project -> Project Property -> Rendering Options）~~抱歉我没有中文汉化的utau~~
+全局使用此flag。（从Project -> Project Property -> Rendering Options）
+
+~~抱歉我没有中文汉化的utau~~
+
 如果你在多音阶音源中指定了文件的音高，这将使重采样器渲染速度更快。  
   
 此flag的灵感来自于moresampler的 `analysis-f0-range-from-path` 配置。  
@@ -102,8 +105,8 @@
 > `O` flag（接受0～100之间的数值，默认是0）
 
 把均衡从RIAA曲线更改为更像是低通滤波的曲线。  
-所以，只有较高的flag数值才会提升高频，反之亦然。低频不再被压制了。~~知识盲区，抱歉~~
-  
+所以，只有较高的flag数值才会提升高频，反之亦然。低频不再被压制了。  
+~~知识盲区，抱歉~~  
 如果您想要带有原始 `O` flag的版本，请随时与我联系。  
 
 > `W` flag（接受-2，0～1000之间的数值，默认是-1）
