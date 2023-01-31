@@ -12,7 +12,13 @@
 
   
 ### 工具文档
-- [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)  
+
+- [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)
+
+### 文档合集
+
+- [有关于Casio fx-991CNX漏洞的存档](docs/fx-991cnx/cnx.md)
+
   
 ## 贡献
 
