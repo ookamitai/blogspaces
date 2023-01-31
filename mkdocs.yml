@@ -46,7 +46,7 @@ theme:
     icon:
         repo: fontawesome/brands/github
 
-    logo: images/image.ico
+    # logo: images/image.ico
     favicon: images/image.ico
 
 
