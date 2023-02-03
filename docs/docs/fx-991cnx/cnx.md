@@ -50,7 +50,7 @@
 
 在计算器内输入：  
 
-$$ 6{\div} 2((2+1\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{1} } } } } } } } } } } }: \sqrt{\Box} $$
+$$ 6{\div} 2((2+1\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{1} } } } } } } } } } } } }: \sqrt{\Box} $$
 
 - `6` `÷` `2` `(` `(` `2` `+` `1`
 - 根号打到 **按不动** 为止，输入`1`
