@@ -18,6 +18,8 @@ nav:
     - 文档合集:
         - 'docs/fx-991cnx/cnx.md'
         - 'docs/fx-991cnx/conv.md'
+        - 'docs/fx-991cnx/an.md'
+        - 'docs/fx-991cnx/err.md'
 
 theme: 
     name: material

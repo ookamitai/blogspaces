@@ -19,6 +19,8 @@
 
 - [有关于Casio fx-991CNX漏洞的存档](docs/fx-991cnx/cnx.md)  
 - [fx-991CNX 字符表](docs/fx-991cnx/conv.md)
+- [an的种种用法](docs/fx-991cnx/an.md)
+- [系列机型全错误](docs/fx-991cnx/err.md)
   
 ## 贡献
 

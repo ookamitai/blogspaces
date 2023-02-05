@@ -1,7 +1,7 @@
 # 有关于Casio fx-991CNX漏洞的存档 
 ---
 
-文档作者：狼太 (ookamitai)
+整合：狼太 (ookamitai)
 
 因为网络上有关于991的文档确实很杂乱，所以打算整理&保存一下历史。
 
@@ -39,8 +39,8 @@
 $$ x=\sum (x, 1, 100 $$
 
 - `CALC` `AC` `左` `DEL` `DEL` `CALC` `=`
-- `左` `Ran#` `Ran#` `左` `左` `DEL` `下`
-(上面的也就是下面的 **线性SIGMA溢出** )
+- `左` `Ran#` `Ran#` `左` `左` `DEL` `下`  
+(也就是下面的 **线性SIGMA溢出** )
 - `SHIFT` `8` `下` `2` `6` `左` `左` `右`
 - `9` `DEL` `左` 屏幕出现：
 
@@ -152,6 +152,10 @@ $$ x = AAcm\to in $$
 
 ![VerFan](images/VerFan.JPG "VerFan")
 
+`an` 有很多用法，所以单独做了一页  
+
+[an的种种用法](an.md)
+
 ### 刷变量`$`
 
 - 进入字符转换器
@@ -206,5 +210,29 @@ $$ @=1.0000D035363823:x $$
 - 就出现想要的字符啦
 
 **可以参见[字符表](conv.md)**  
-**注：第7、8位xx必须小于9A，否则卡不出来**
+**注：第7、8位的框必须小于9A，否则卡不出来**
 
+## 进入任意模式  
+[参考文档1](https://tieba.baidu.com/p/8169722614) 
+
+### 方法1（线性）
+
+发现者 [@-Wind°](https://tieba.baidu.com/home/main?id=tb.1.58f72a67.Scv9V6JNveNkP2g6qGcpfg)
+
+![Method1](images/li.jpg "Method1")
+
+**注：格式为** 
+
+$$ 67数字\:m^{2}\to acre\:sinh-1(\:1\:0\:xx字符\:3个数字\:逗号\:EC字符 $$
+
+**最后按等于后报错是正常现象，按开机后就进入你想要的模式了**
+
+### 方法2（数学）
+
+发现者 [@pyridnephenol](https://tieba.baidu.com/home/main?id=tb.1.96303922.8s1lnkVa10MeKccPfcpLLA)
+
+**第一步的`@`是4D**
+
+![Method2](images/ma.jpg "Method2")
+
+**如果3a 3b法都无法溢出，可以试试1 FDFA字符 1 xx字符进模式后，shift灯会亮，再按一次shift再按AC，否则会关机**
