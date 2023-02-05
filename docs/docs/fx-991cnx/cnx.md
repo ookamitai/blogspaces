@@ -32,17 +32,39 @@
 
 （FUN FACT：其实是一种特殊的计算器模式，考虑为什么方程模式开机可以保存参数！）
 
+### x+y an模式
+
+- 进入线性模式，打出：
+
+$$ x=\sum (x, 1, 100 $$
+
+- `CALC` `AC` `左` `DEL` `DEL` `CALC` `=`
+- `左` `Ran#` `Ran#` `左` `左` `DEL` `下`
+(上面的也就是下面的 **线性SIGMA溢出** )
+- `SHIFT` `8` `下` `2` `6` `左` `左` `右`
+- `9` `DEL` `左` 屏幕出现：
+
+$$ x=\sum (x, 1, 100an$$
+
+然后完善这个式子成：
+
+$$ x = \sum (x, 1, 1) + x个数字 + y个数字 an $$
+
+按下 `CALC` `=` 即可
+
+
 ## 各种溢出
 
-[参考文档1](https://tieba.baidu.com/p/3810670052)
-[参考文档2](https://zhuanlan.zhihu.com/p/261156688)
-[参考文档3](https://zhuanlan.zhihu.com/p/464012892)
+[参考文档1](https://tieba.baidu.com/p/3810670052)  
+[参考文档2](https://zhuanlan.zhihu.com/p/261156688)  
+[参考文档3](https://zhuanlan.zhihu.com/p/464012892)  
+[参考文档4](https://tieba.baidu.com/p/8169722614)   
 
 
-### 压力BUG（字符转换器）
+### 压力BUG（字符转换器 / LBF转换器）
 - `SHIFT` `9` `3` `=` `AC` 复位计算器（可选）
-- `1` `SHIFT` `8` `↓` `2` `7` `=`
-- `↑` `←`
+- `1` `SHIFT` `8` `下` `2` `7` `=`
+- `上` `左`
 
 ### 刷框
 
@@ -60,22 +82,57 @@ $$ 6{\div} 2((2+1\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sq
 然后：
 
 - `=` （VerC按`CALC`）
-- `=` `←` `→` `DEL` `←`
+- `=` `左` `右` `DEL` `左`
 - 删完，只剩下一个框
+
+### 线性SIGMA溢出
+
+- `SHIFT` `菜单(MENU)` `1` `3` 进入线性模式
+
+打出：
+
+$$ x=\sum (x, 1, 100 $$
+
+- `x` `ALPHA` `CALC`
+- `SHIFT` `x` (SIGMA)
+- `x` `SHIFT` `)` `1` `SHIFT` `)` `100`
+
+然后：
+
+- `CALC` `AC` `左` `DEL` `DEL` `CALC` `=` 此时报错
+- `左` `SHIFT` `·` `SHIFT` `·` `左` `左` `DEL` `下`
+
+### A99
+
+- 给A赋值10^99，然后输入:
+
+$$ x = AAcm\to in $$
+
+- `SOLVE` `SHIFT` `·` `SHIFT` `·` `左` `左` `DEL`
+
+## 刷字符
+
+[参考文档1](https://tieba.baidu.com/p/3810670052)  
+[参考文档2](https://zhuanlan.zhihu.com/p/261156688)  
+[参考文档3](https://zhuanlan.zhihu.com/p/464012892)  
+[参考文档4](https://tieba.baidu.com/p/8169722614) 
+
 
 ### 刷`an`
 
+**VerA / B / C**
+
 - 计算模式：
     - 进入字符转换器
-    - `SHIFT` `8` `↓` `2` `6`
+    - `SHIFT` `8` `下` `2` `6`
         - 出现`1Unknowi`
-    - `←` `←` `→`
+    - `左` `左` `右`
         - 光标卡在`Unknow`与`i`之间
-    - `9` `←` `SHIFT` `·` 
-    - `←` `←` `→` `SHIFT` `·`
-    - `→` `→`
+    - `9` `左` `SHIFT` `·` 
+    - `左` `左` `右` `SHIFT` `·`
+    - `右` `右`
     - `DEL` `DEL` `DEL`
-    - `→` `←` `9`
+    - `右` `左` `9`
     - `DEL` `DEL`
         - 屏幕只剩下`an`
 
@@ -83,17 +140,23 @@ $$ 6{\div} 2((2+1\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sqrt{\sq
 - 复数模式：
     - 进入字符转换器
     - `SHIFT` `·`
-    - `←` `←` `→`
+    - `左` `左` `右`
     - `ENG (i)`
-    - `←` `9`
+    - `左` `9`
     - `DEL` `DEL`
         - 屏幕只剩下`an`
+
+**VerF**
+
+图by贴吧大佬 [@pyridnephenol](https://tieba.baidu.com/home/main?id=tb.1.96303922.8s1lnkVa10MeKccPfcpLLA)  
+
+![VerFan](images/VerFan.JPG "VerFan")
 
 ### 刷变量`$`
 
 - 进入字符转换器
-- `SHIFT` `8` `↓` `2` `8`
-- `←` `←` `→`
+- `SHIFT` `8` `下` `2` `8`
+- `左` `左` `右`
 - `DEL` `DEL`
     - 屏幕剩下`$`
 
@@ -116,11 +179,32 @@ $$ \frac{$}{$}^2  $$
   
 **解决方法：进入自检再退出即可**
 
-### 刷变量`@`
+### 刷变量`@(4F)`
+
+**有很多`@`，各个`@`性质都有所不同，这只是其中一个**  
+**可以参见[字符表](conv.md)**
 
 - 进入字符转换器
 - `SHIFT` `7` `1` `4` 
-- `←` `←` `→`
+- `左` `左` `右`
 - `DEL` `DEL`
     - 屏幕剩下`@`
   
+### 刷任意字符
+
+- 用任意溢出方法溢出后，在FE FD处打 `SHIFT` `7` `4` `8` 刷出`@(4D)`，打：
+
+$$ @=1.0000\Box \Box \Box \Box \Box \Box \Box \Box 23:x $$
+
+（其他框表示0-F任意十六进制数，如
+
+$$ @=1.0000D035363823:x $$
+
+）
+
+- `CALC` `=` `=` `下`
+- 就出现想要的字符啦
+- 
+**可以参见[字符表](conv.md)**
+**注：第7、8位xx必须小于9A，否则卡不出来**
+

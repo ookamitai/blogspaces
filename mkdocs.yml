@@ -17,6 +17,7 @@ nav:
 
     - 文档合集:
         - 'docs/fx-991cnx/cnx.md'
+        - 'docs/fx-991cnx/conv.md'
 
 theme: 
     name: material
