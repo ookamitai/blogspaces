@@ -15,7 +15,7 @@
 
 - [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)
 
-### 文档合集
+### 次硅酸钙计算器
 
 - [有关于Casio fx-991CNX漏洞的存档](docs/fx-991cnx/cnx.md)  
 - [fx-991CNX 字符表](docs/fx-991cnx/conv.md)
