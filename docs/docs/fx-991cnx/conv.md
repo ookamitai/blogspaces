@@ -9,27 +9,26 @@
 
 ## 单字节字符表
 
-例如，数字0对应的字符是30
+例如，数字 0 对应的字符是 30
 
 ![SI](images/si.jpg "si")
 
-## FE双字节字符表
+## FE 双字节字符表
 
 ![FE](images/fe.jpg "fe")
 
-## FD双字节字符表
+## FD 双字节字符表
 
-**E3和E7，E4和E6反了**
+**E3 和 E7，E4 和 E6 反了**
 
 ![FD](images/fd.jpg "fd")
 
-## FB双字节字符表
+## FB 双字节字符表
 
-**E3和E7，E4和E6反了**
+**E3 和 E7，E4 和 E6 反了**
 
 ![FB](images/fb.jpg "fb")
 
-## FA双字节字符表
+## FA 双字节字符表
 
 ![FA](images/fa.jpg "fa")
-
