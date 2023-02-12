@@ -81,7 +81,9 @@ $$ + $$
 #### 操作方法
 
 1. 输入:
-   $$ x^{2} + 1 $$
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>1</mn></math>
+
 2. 使用 `SOLVE`
 
 ### 堆栈错误
