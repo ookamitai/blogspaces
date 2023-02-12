@@ -191,7 +191,7 @@ $$ \mathbf{F}-13 $$
 #### 操作方法
 
 1. 计算
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><munderover><mo data-mjx-texclass="OP">∑</mo><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>100</mn></mrow></munderover><mstyle scriptlevel="0"><mspace width="thickmathspace"></mspace></mstyle><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><munderover><mo data-mjx-texclass="OP">∑</mo><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><mrow><mn>10000</mn></mrow></munderover><mstyle scriptlevel="0"><mspace width="thickmathspace"></mspace></mstyle><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math>
 2. 迅速按下`AC`
 
 ### 空白
