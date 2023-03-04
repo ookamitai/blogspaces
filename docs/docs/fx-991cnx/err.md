@@ -4,7 +4,7 @@
 
 [参考文档 1](https://tieba.baidu.com/p/7862606297)
 
-(DE X 的翻译会尽快补上……)
+DE X 的翻译已补上
 
 ---
 
@@ -17,6 +17,7 @@
 - 中: 超时
 - 英: Time out
 - 日: タイムアウトになりました
+- 德: Zeitüberschreit
 
 #### 操作方法
 
@@ -29,6 +30,7 @@ $$ \int_{-2}^{1}\frac{1}{x}dx $$
 - 中: 变量错误
 - 英: Variable ERROR
 - 日: 変数入力に誤りがあります
+- 德: Variablenfehler
 
 #### 操作方法
 
@@ -41,6 +43,7 @@ $$ \int_{-2}^{1}\frac{1}{x}dx $$
 - 中: 自变量错误
 - 英: Argument ERROR
 - 日: 引数の設定に誤りがあります
+- 德: Argumentfehler
 
 #### 操作方法
 
@@ -53,6 +56,7 @@ $$ RanInt\#(1, 1) $$
 - 中: 数学错误
 - 英: Math ERROR
 - 日: 数学的誤りか計算範囲超えです
+- 德: Mathem. Fehler
 
 #### 操作方法
 
@@ -65,6 +69,7 @@ $$ \frac{1}{0} $$
 - 中: 语法错误
 - 英: Syntax ERROR
 - 日: 入力書式に誤りがあります
+- 德: Syntaxfehler
 
 #### 操作方法
 
@@ -77,6 +82,7 @@ $$ + $$
 - 中: 无解
 - 英: Cannot solve
 - 日: 解を求めることができません
+- 德: Keine Lösung gef
 
 #### 操作方法
 
@@ -93,6 +99,7 @@ $$ + $$
 - 中: 堆栈错误
 - 英: Stack ERROR
 - 日: 計算するスタック数超えです
+- 德: Stapelfehler
 
 #### 操作方法
 
@@ -107,6 +114,7 @@ $$ 4\mathbf{F} {\div}R \mathbf{F} $$
 - 中: 范围错误
 - 英: Range ERROR
 - 日: 範囲の設定に誤りがあります
+- 德: Bereichsfehler
 
 #### 操作方法
 
@@ -119,6 +127,7 @@ $$ 10\mathbf{F} {\div}R \mathbf{F} $$
 - 中/英/日: Cannot simplify
 - 中译: 无法简化
 - 日译: 簡素化をできません
+- 德: Nicht vereinf.bar
 
 #### 操作方法
 
@@ -131,7 +140,7 @@ $$ 2\mathbf{F} {\div}R \mathbf{F} $$
 - 中: 空白 (` `)
 - 英: Circular ERROR
 - 日: 循環参照しています
-
+- 德: Zirkelbezug
 #### 操作方法
 
 $$ 3\mathbf{F} {\div}R \mathbf{F} $$
@@ -141,6 +150,7 @@ $$ 3\mathbf{F} {\div}R \mathbf{F} $$
 #### 各版本表示
 
 - 中/英/日: +
+- 德: (2空格)2:VctB
 
 #### 操作方法
 
@@ -153,6 +163,7 @@ $$ 3\mathbf{E} {\div}R \mathbf{F} $$
 - 中: 维数错误
 - 英: Dimension ERROR
 - 日: 次元の設定に誤りがあります
+- 德: Dimensionsfehler
 
 #### 操作方法
 
@@ -165,6 +176,7 @@ $$ Det(MatA) $$
 - 中: 空值错误
 - 英: NULL ERROR
 - 日: 予期せぬエラー
+- 德: Unerw. Fehler
 
 #### 操作方法
 
@@ -177,6 +189,7 @@ $$ \mathbf{F}-12 $$
 - 中: 空白 (` `)
 - 英: Memory ERROR
 - 日: 使用可能メモリーの範囲超えです
+- 德: Speicherfehler
 
 #### 操作方法
 
@@ -189,6 +202,7 @@ $$ \mathbf{F}-13 $$
 - 中: AC 键中断
 - 英: AC Break
 - 日: 強制中断しました
+- 德: Ende erzwungen
 
 #### 操作方法
 
@@ -200,7 +214,7 @@ $$ \mathbf{F}-13 $$
 
 #### 各版本表示
 
-- 中/英/日: 空白 (` `)
+- 中/英/日/德: 空白 (` `)
 
 #### 操作方法
 
@@ -213,6 +227,7 @@ $$ \mathbf{F}-13 $$
 - 中: *p* 单位向量
 - 英: *p* Unit Vector
 - 日: **未知**
+- 德: **未知**
 
 #### 操作方法
 
