@@ -6,7 +6,7 @@
 
 ---
 
-## 超大异常菜单
+## 超大异常菜单 (CN X)
 
 [参考文档](http://tieba.baidu.com/p/8136027660)
 
@@ -24,3 +24,11 @@ $$ \frac{\frac{\frac{\frac{\frac{\frac{5数字}{10数字} }{15数字} }{20数字
 
 ![MENU2](images/menu2.JPG)
 ![MENU1](images/menu1.JPG)
+
+## 超大异常菜单 (DE X)
+
+自己整的
+
+![MENU1](images/dmenu1.JPG)
+![MENU2](images/dmenu2.JPG)
+![MENU3](images/dmenu3.JPG)
