@@ -21,6 +21,7 @@
 - [fx-991CNX 字符表](docs/fx-991cnx/conv.md)
 - [an的种种用法](docs/fx-991cnx/an.md)
 - [系列机型全错误](docs/fx-991cnx/err.md)
+- [fx-JP900CW 异常数据表格](docs/fx-991cnx/sheet.md)
 
 ### 「大英百科全书」
 
