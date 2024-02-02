@@ -10,6 +10,7 @@ nav:
         - 'index.md'
 
     - 翻译文档:
+        - 'docs/rosetta2/rosetta.md'
         - 'docs/young3_doc/young3_doc.md'
 
     - 工具文档:

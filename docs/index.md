@@ -8,6 +8,8 @@
 
 ### 翻译文档
 
+- [Rosetta 2为何如此之快?](docs/rosetta2/rosetta.md)
+
 - [young3重采样器文档](docs/young3_doc/young3_doc.md)
 
   
