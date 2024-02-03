@@ -6,7 +6,7 @@
 
 **最新版本**   
 
-- [OKAMI ( *formerly known as* KaroJPN_Derelict](https://drive.google.com/file/d/1WEz9pKsYEeOG0F0SW5wgoqbEUi2yfszd/view?usp=sharing)
+- [OKAMI (*formerly known as* KaroJPN_Derelict)](https://drive.google.com/file/d/1WEz9pKsYEeOG0F0SW5wgoqbEUi2yfszd/view?usp=sharing)
   
 **历史版本**  
 
