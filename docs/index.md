@@ -33,6 +33,14 @@
 
 - [文件下载直通车](docs/dls/dls.md)
   
+## 找到我
+
+X (Twitter): [@ookamitai](https://x.com/ookamitai)
+
+Github: [@ookamitai](https://github.com/ookamitai)
+
+QQ: [狼太](https://qm.qq.com/q/Usl9iNpa8w)
+
 ## 贡献
 
 ### 帮帮我
