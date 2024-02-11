@@ -12,6 +12,7 @@ nav:
     - 翻译文档:
         - 'docs/rosetta2/rosetta.md'
         - 'docs/young3_doc/young3_doc.md'
+        - 'docs/vocalist/vocalist_cn.md'
 
     - 工具文档:
         - 'docs/upet_docs/upet_docs.md'

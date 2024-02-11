@@ -10,6 +10,7 @@
 
 - [Rosetta 2为何如此之快?](docs/rosetta2/rosetta.md)
 - [young3重采样器文档](docs/young3_doc/young3_doc.md)
+- [Vocalist: Swift改写的OREMO macOS替代品](docs/vocalist/vocalist_cn.md)
 
 ### 工具文档
 
