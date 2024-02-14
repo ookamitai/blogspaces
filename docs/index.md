@@ -10,11 +10,12 @@
 
 - [Rosetta 2为何如此之快?](docs/rosetta2/rosetta.md)
 - [young3重采样器文档](docs/young3_doc/young3_doc.md)
-- [Vocalist: Swift改写的OREMO macOS替代品](docs/vocalist/vocalist_cn.md)
 
 ### 工具文档
 
 - [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)
+- [Vocalist: Swift改写的OREMO macOS替代品](docs/vocalist/vocalist_cn.md)
+- [狼太设定Reference Sheet](docs/character/sheet.md)
 
 ### 次硅酸钙计算器
 
