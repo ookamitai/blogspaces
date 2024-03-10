@@ -6,6 +6,8 @@
 
 [工程链接](https://github.com/ookamitai/Vocalist)
 
+**Vocalist 已更新至 `1.1J`，目前还没有时间翻译新增内容。**
+
 ## 反馈
 
 请通过Issues或者在推特上DM我来反馈.
@@ -70,7 +72,7 @@
 - `Pause (cmd+P)`: 暂停音频.
 - `Stop (cmd+O)`: 停止播放音频.
 - `Delete (Delete/Space)`: 删除音频.
-- `Refresh (Async) (cmd+F)`: 刷新音频数据
+- `Refresh (Async) (cmd+F)`: 刷新音频数据.
 
 你也可以调整窗口大小来看更多文件信息.
 
