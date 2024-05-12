@@ -120,6 +120,7 @@ void insertion_sort(num_array& v) {
         }
         v[i + 1] = key;
     }
+    return;
 }
 
 void merge(num_array& v, int p, int q, int r) {
@@ -189,7 +190,7 @@ int main(int argc, char* argv[]) {
         return 1;
     } else {
         try {
-            size = pow(2, std::stoi(argv[2]));
+            size = pow(2, std::stoi(argv[1]));
         } catch (const std::exception& e) {
             size = 32,768;
         }
