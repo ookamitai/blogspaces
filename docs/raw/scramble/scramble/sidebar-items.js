@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["colors"],"struct":["ColoredChar","ColoredText","Scr"]};

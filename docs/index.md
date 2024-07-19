@@ -17,6 +17,7 @@
 - [Vocalist: Swift改写的OREMO macOS替代品](docs/vocalist/vocalist_cn.md)
 - [狼太设定Reference Sheet](docs/character/sheet.md)
 - [对 Merge Sort 算法的优化](docs/sort/sort.md)
+- [Scramble 终端显示API 文档](docs/scramble/scramble.md)
 
 ### 次硅酸钙计算器
 
