@@ -1,3 +1,0 @@
-(function() {var implementors = {
-"scramble":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.79.0/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"scramble/struct.Scr.html\" title=\"struct scramble::Scr\">Scr</a>"]]
-};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
