@@ -14,6 +14,7 @@ nav:
         - 'docs/young3_doc/young3_doc.md'
 
     - 工具文档:
+        - 'docs/PGPKey/pgpkey.md'
         - 'docs/upet_docs/upet_docs.md'
         - 'docs/vocalist/vocalist_cn.md'
         - 'docs/character/sheet.md'

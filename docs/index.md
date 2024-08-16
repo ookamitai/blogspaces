@@ -13,6 +13,7 @@
 
 ### 工具文档
 
+- [PGP Public Key](docs/PGPKey/pgpkey.md)
 - [uPET 工具使用说明书](docs/upet_docs/upet_docs.md)
 - [Vocalist: Swift改写的OREMO macOS替代品](docs/vocalist/vocalist_cn.md)
 - [狼太设定Reference Sheet](docs/character/sheet.md)
