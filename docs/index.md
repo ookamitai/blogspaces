@@ -27,10 +27,6 @@
 - [系列机型全错误](docs/fx-991cnx/err.md)
 - [fx-JP900CW 异常数据表格](docs/fx-991cnx/sheet.md)
 
-### 「大英百科全书」
-
-- [2020级15班非物质文化遗产「大英百科全书」1st Edition](docs/enc/enc.md)
-
 ### 文件下载直通车
 
 - [文件下载直通车](docs/dls/dls.md)
