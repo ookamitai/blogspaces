@@ -1,5 +1,11 @@
 # PGP Public Key
 
+---
+
+or, even better, download the `.asc` file from [here](https://ookamitai.com/).
+
+---
+
 ```text
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----

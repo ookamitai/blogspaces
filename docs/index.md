@@ -62,4 +62,3 @@ QQ: [狼太](https://qm.qq.com/q/Usl9iNpa8w)
 
 - [狼太 (ookamitai)](https://github.com/ookamitai)
 - [隋卞 (SuiBianP)](https://github.com/suibianp)
-- [犬太 (LiTOBRX)](https://space.bilibili.com/414753842)
