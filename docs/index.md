@@ -6,6 +6,8 @@
   
 ## 找到我
 
+E-mail: me@ookamitai.com
+
 X (Twitter): [@ookamitai](https://x.com/ookamitai)
 
 Github: [@ookamitai](https://github.com/ookamitai)
