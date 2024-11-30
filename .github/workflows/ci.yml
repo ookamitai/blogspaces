@@ -22,4 +22,3 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install chinese_slugify
       - run: mkdocs gh-deploy --force
-      - run: echo "blog.ookamitai.com" > CNAME
