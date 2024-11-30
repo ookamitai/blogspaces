@@ -11,6 +11,7 @@ nav:
 
     - 学习随笔:
         - 'docs/acid_ph/acid_ph.md'
+        - 'docs/seq/seq.md'
 
     - 翻译文档:
         - 'docs/rosetta2/rosetta.md'
