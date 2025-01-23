@@ -29,6 +29,13 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip install chinese_slugify
 
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
+
+      - name: Create CNAME file
+        run: |
+          echo "blog.ookamitai.com" > CNAME
+      
       - name: Push CNAME file to gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,10 +46,3 @@ jobs:
           git add CNAME
           git commit -m "Add CNAME file"
           git push origin gh-pages --force
-
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
-
-      - name: Create CNAME file
-        run: |
-          echo "blog.ookamitai.com" > CNAME
