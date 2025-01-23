@@ -11,14 +11,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install chinese_slugify
-      - run: mkdocs gh-deploy --force
+
+      - name: Install mkdocs and plugins
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install chinese_slugify
+
+      - name: Create CNAME file
+        run: |
+          echo "blog.ookamitai.com" > CNAME
+
+      - name: Push CNAME file to gh-branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git checkout -b gh-branch
+          git add CNAME
+          git commit -m "Add CNAME file"
+          git push origin gh-branch --force
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
